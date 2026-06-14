@@ -11,7 +11,7 @@ except ImportError:
 # CONFIGURATION
 # =====================================================================
 # Replace this with your actual Kaggle username and your dataset slug:
-KAGGLE_USERNAME = "balajiynspk"  # Update with your Kaggle username
+KAGGLE_USERNAME = "ybalaji098"  # Update with your Kaggle username
 DATASET_SLUG = "nse-us-stock-market-historical-data"
 
 # Optional: If you haven't placed your 'kaggle.json' in C:\Users\balaj\.kaggle\kaggle.json,
