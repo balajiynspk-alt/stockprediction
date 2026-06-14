@@ -43,13 +43,13 @@ def upload():
         # Uploading dataset using kagglehub
         kagglehub.dataset_upload(
             handle=handle,
-            local_directory=local_dataset_dir,
+            local_dataset_dir=local_dataset_dir,
             ignore_patterns=["*.tmp", "batch_training_summary.csv", "datapackage.json"]
         )
-        print("\n🎉 Success! Dataset upload to Kaggle completed.")
+        print("\nSuccess! Dataset upload to Kaggle completed.")
         print(f"View your dataset at: https://www.kaggle.com/datasets/{handle}")
     except Exception as e:
-        print(f"\n❌ Error uploading dataset: {e}")
+        print(f"\nError uploading dataset: {e}")
         print("\nTroubleshooting tips:")
         print("1. Ensure your 'kaggle.json' is located at: C:\\Users\\balaj\\.kaggle\\kaggle.json")
         print("2. Ensure you have created the dataset on the Kaggle website first if you are updating it,")
