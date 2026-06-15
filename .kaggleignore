@@ -1,0 +1,3 @@
+*.tmp
+batch_training_summary.csv
+datapackage.json
